@@ -1,0 +1,211 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+ margin: 0;
+  padding: 0;
+  box-shadow: 0px 35px 70px 0px rgba(16, 3, 54, 0.65), 0px 30px 40px -10px rgba(20, 50, 116, 0.55);
+  background: linear-gradient(180deg, rgb(9, 3, 66) 0%, rgba(255, 99, 124, 1) 100%);
+  border-radius: 10px;
+  background-color: #0a192f; /* Dark Blue Background Color */
+  color: #ffffff; /* Text Color */
+}
+
+.logo img {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 155px; /* Set the width of your logo */
+  height: auto;
+  margin-bottom: 5px;
+}
+
+
+
+.social {
+  margin-bottom: 10px;
+}
+
+.social a {
+  margin-right: 3px; /* Adjust the margin-right to move icons slightly to the right */
+}
+
+.icon {
+  width: 20px; /* Set the width of the icons */
+  height: 20px; /* Set the height of the icons */
+}
+
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.countdown-item {
+  font-size: 3em;
+  margin: 0 15px;
+}
+
+.countdown-item span {
+  font-size: 0.8em;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title-holder {
+  margin-bottom: 20px;
+}
+
+.title-holder h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.title-holder p {
+  font-size: 1em;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.cta {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ffffff; /* White Button Background Color */
+  color: #0a192f; /* Dark Blue Text Color */
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #ff6f61; /* Hover Background Color */
+  color: #ffffff; /* Hover Text Color */
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #000000; /* Darker Blue for Footer */
+  text-align: center;
+  font-size: 0.9em;
+  width: 100%;
+}
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1f2833; /* Dark blue background color */
+  color: #ffffff; /* White text color */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  box-shadow: 0px 35px 70px 0px rgba(16, 3, 54, 0.65), 0px 30px 40px -10px rgba(20, 50, 116, 0.55);
+  background: linear-gradient(180deg, rgb(9, 3, 66) 0%, rgba(255, 99, 124, 1) 100%);
+  border-radius: 10px;
+}
+
+/* Rest of your styles remain unchanged */
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.social {
+  margin-bottom: 20px;
+}
+
+.social a {
+  margin-right: 10px;
+}
+
+.countdown {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.countdown-item {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #00adb5; /* Teal button color */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eeeeee; /* Light gray on hover */
+  color: #000000; /* Black text on hover */
+}
+
+.footer {
+  margin-top: 1cap;
+}
+.footer .fab {
+  margin-right: 5px;
+  font-size: 20px; /* Adjust the font size of the social icons */
+  color: #3b5998; /* Facebook color */
+}
+.footer a.underlined {
+  text-decoration: underline;
+  color: #ffffff; /* White text color for underlined links */
+}
+.footer a.underlined:hover {
+  color: #00adb5; /* Teal color on hover */
+}
+.footer p {
+  font-size: 0.9em;
+  color: #ffffff; /* White text color */
+  margin-top: 10px; /* Adjust the top margin */
+}
+
+/* Optional: Add a border at the top of the trademark notice for separation */
+.footer p {
+  border-top: 1px solid #ffffff; /* White border color */
+  padding-top: 10px; /* Adjust the top padding */
+}
+.underlined {
+  text-decoration: underline;
+}
