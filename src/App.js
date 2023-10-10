@@ -8,7 +8,7 @@ const launchDate = new Date('03/01/2024').getTime();
 
 const calculateTimeLeft = () => {
   const now = new Date().getTime();
-  const timeLeft = launchDate - now;
+  const timeLeft = launchDate - now; 
 
   let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
   let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
